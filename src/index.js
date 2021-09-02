@@ -13,8 +13,8 @@ ReactDOM.render(
   <React.StrictMode>
     <Router>
       <Switch>
-        <Route  path="/money2"  component={App} />
-        <Route  path="/asdf"  component={Asdf} />
+        <Route exact path="/money"  component={App} />
+        <Route exact path="/asdf"  component={Asdf} />
       </Switch>
     </Router>
   </React.StrictMode>,
