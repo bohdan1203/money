@@ -14,6 +14,7 @@ const categoriesExpensesSelect = [
   "Кіно",
 ];
 const categoriesIncomesSelect = ["Зарплата", "Продажі", "Депозити"];
+const ooo = "LOREM"
 
 const filterItems = {
   category: null,
@@ -23,7 +24,7 @@ const filterItems = {
 };
 
 function App() {
-  <h1>{categoriesIncomesSelect[0]}</h1>
+  <h1>{ooo}</h1>
 }
 
 export default App;
