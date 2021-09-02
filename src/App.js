@@ -8,6 +8,8 @@ function App() {
     return (
       <div>
         <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, voluptatem! Cumque cupiditate nostrum ducimus alias cum assumenda eius id, vitae explicabo, debitis eaque voluptas aperiam reprehenderit sunt vel error quo.</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, voluptatem! Cumque cupiditate nostrum ducimus alias cum assumenda eius id, vitae explicabo, debitis eaque voluptas aperiam reprehenderit sunt vel error quo.</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, voluptatem! Cumque cupiditate nostrum ducimus alias cum assumenda eius id, vitae explicabo, debitis eaque voluptas aperiam reprehenderit sunt vel error quo.</div>
       </div>
   );
 }
