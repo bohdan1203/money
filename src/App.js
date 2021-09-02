@@ -24,7 +24,12 @@ const filterItems = {
 };
 
 function App() {
-  <h1>{ooo}</h1>
+  return (
+    <div>
+      <h1>{ooo}</h1>
+      <h2>{categoriesIncomesSelect[0]}</h2>
+    </div>
+  )
 }
 
 export default App;
