@@ -1,0 +1,2 @@
+(this["webpackJsonpmoney-tracker"]=this["webpackJsonpmoney-tracker"]||[]).push([[0],{167:function(e,t,n){},170:function(e,t,n){"use strict";n.r(t);n(0);var r=n(54),a=n.n(r),s=(n(169),n(167),n(18));JSON.parse(localStorage.getItem("data"));var c=function(){return Object(s.jsx)("div",{children:"dskjfklasdjfkljasdkljfkasdklj"})};a.a.render(Object(s.jsx)(c,{}),document.getElementById("root"))}},[[170,1,2]]]);
+//# sourceMappingURL=main.10776139.chunk.js.map
