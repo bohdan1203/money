@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Bar, Doughnut, Line } from "react-chartjs-2";
 import "./App.css";
 
-let data = JSON.parse(localStorage.getItem("data"));
+let data = JSON.parse(localStorage.getItem("data")) || [];
 
 const incomesExpenses = data || [];
 
@@ -134,7 +134,8 @@ function App() {
   }
 
   function changeBalanceEdit() {
-    incomesExpenses[editId].sum = Math.round(+document.getElementById("edit-sum").value * 100) / 100
+    incomesExpenses[editId].sum =
+      Math.round(+document.getElementById("edit-sum").value * 100) / 100;
     if (operationType === "Нова витрата") {
       incomesExpenses[editId].sum *= -1;
     }
